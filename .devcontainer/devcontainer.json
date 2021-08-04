@@ -1,3 +1,14 @@
 {
-  "image": "ghcr.io/nnooney-docker/debian-c"
+  "name": "Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // Set *default* container specific settings.json values on container create.
+	"settings": {},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-vscode.cpptools"
+	],
 }
