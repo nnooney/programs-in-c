@@ -1,0 +1,5 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "mesonbuild.buildFolder": "build",
+  "mesonbuild.configureOnOpen": true
+}

@@ -5,7 +5,8 @@
   },
   "settings": {},
   "extensions": [
-    "ms-vscode.cpptools"
+    "asabil.meson",
+    "ms-vscode.cpptools",
   ],
   "remoteUser": "developer"
 }

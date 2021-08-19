@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Meson files
+build/
+subprojects/*
+!subprojects/*.wrap
+!subprojects/packagefiles
