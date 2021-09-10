@@ -3,4 +3,4 @@
 #include <stdio.h>
 #include <string.h>
 
-void say_hello(char *name) { printf("Hello, %s!", name); }
+void say_hello(const char *name) { printf("Hello, %s!", name); }
